@@ -1,0 +1,12 @@
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\bin\Debug\net9.0\MusicalInstruments.deps.json
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\bin\Debug\net9.0\MusicalInstruments.dll
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\bin\Debug\net9.0\MusicalInstruments.pdb
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\obj\Debug\net9.0\MusicalInstruments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\obj\Debug\net9.0\MusicalInstruments.AssemblyInfoInputs.cache
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\obj\Debug\net9.0\MusicalInstruments.AssemblyInfo.cs
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\obj\Debug\net9.0\MusicalInstruments.csproj.CoreCompileInputs.cache
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\obj\Debug\net9.0\MusicalInstruments.sourcelink.json
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\obj\Debug\net9.0\MusicalInstruments.dll
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\obj\Debug\net9.0\refint\MusicalInstruments.dll
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\obj\Debug\net9.0\MusicalInstruments.pdb
+C:\Users\PogU\Documents\GitHub\10LW\MusicalInstruments\obj\Debug\net9.0\ref\MusicalInstruments.dll

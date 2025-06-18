@@ -1,0 +1,147 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Collections/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MusicalInstruments": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Collections.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Collections.dll": {}
+        }
+      },
+      "LW11/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Collections": "1.0.0",
+          "MusicalInstruments": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LW11.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LW11.dll": {}
+        }
+      },
+      "MusicalInstruments/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MusicalInstruments.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MusicalInstruments.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Collections/1.0.0": {
+      "type": "project",
+      "path": "../Collections/Collections.csproj",
+      "msbuildProject": "../Collections/Collections.csproj"
+    },
+    "LW11/1.0.0": {
+      "type": "project",
+      "path": "../LW11/LW11.csproj",
+      "msbuildProject": "../LW11/LW11.csproj"
+    },
+    "MusicalInstruments/1.0.0": {
+      "type": "project",
+      "path": "../MusicalInstruments/MusicalInstruments.csproj",
+      "msbuildProject": "../MusicalInstruments/MusicalInstruments.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Collections >= 1.0.0",
+      "LW11 >= 1.0.0",
+      "MusicalInstruments >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PogU\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\PogU\\source\\repos\\Lab12\\Tests\\Tests.csproj",
+      "projectName": "Tests",
+      "projectPath": "C:\\Users\\PogU\\source\\repos\\Lab12\\Tests\\Tests.csproj",
+      "packagesPath": "C:\\Users\\PogU\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PogU\\source\\repos\\Lab12\\Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\PogU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\PogU\\source\\repos\\Lab12\\Collections\\Collections.csproj": {
+              "projectPath": "C:\\Users\\PogU\\source\\repos\\Lab12\\Collections\\Collections.csproj"
+            },
+            "C:\\Users\\PogU\\source\\repos\\Lab12\\LW11\\LW11.csproj": {
+              "projectPath": "C:\\Users\\PogU\\source\\repos\\Lab12\\LW11\\LW11.csproj"
+            },
+            "C:\\Users\\PogU\\source\\repos\\Lab12\\MusicalInstruments\\MusicalInstruments.csproj": {
+              "projectPath": "C:\\Users\\PogU\\source\\repos\\Lab12\\MusicalInstruments\\MusicalInstruments.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
