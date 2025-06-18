@@ -124,7 +124,7 @@ namespace LW11
 
             return result;
         }
-        public static IEnumerable<object> TopInstrumentsByStringCountMethod(this SortedDictionary<string, List<MusicalInstrument>> participants, int count = 5)
+        public static IEnumerable<object> TopInstrumentsByStringCountMethod(this SortedDictionary<string, List<MusicalInstrument>> participants, int count = 3)
         {
             return participants
                 .SelectMany(p => p.Value.OfType<Guitar>().Select(g => new
@@ -199,6 +199,20 @@ namespace LW11
             return collection
                 .OfType<Guitar>()
                 .Max(g => g.StringCount);
+        }
+        // a) GroupBy через LINQ Query Syntax
+        public static IEnumerable<IGrouping<string, MusicalInstrument>> GroupInstrumentsByTypeQuery(this MyCollection<MusicalInstrument> collection)
+        {
+            var grouped = from instrument in collection
+                          group instrument by instrument.GetType().Name;
+
+            return grouped;
+        }
+
+        // b) GroupBy через Method Syntax
+        public static IEnumerable<IGrouping<string, MusicalInstrument>> GroupInstrumentsByType(this MyCollection<MusicalInstrument> collection)
+        {
+            return collection.GroupBy(i => i.GetType().Name);
         }
 
     }

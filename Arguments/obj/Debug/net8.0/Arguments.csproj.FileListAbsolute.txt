@@ -22,3 +22,15 @@ C:\Users\PogU\source\repos\lab-14\Arguments\obj\Debug\net8.0\Arguments.dll
 C:\Users\PogU\source\repos\lab-14\Arguments\obj\Debug\net8.0\refint\Arguments.dll
 C:\Users\PogU\source\repos\lab-14\Arguments\obj\Debug\net8.0\Arguments.pdb
 C:\Users\PogU\source\repos\lab-14\Arguments\obj\Debug\net8.0\ref\Arguments.dll
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\bin\Debug\net8.0\Arguments.deps.json
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\bin\Debug\net8.0\Arguments.dll
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\bin\Debug\net8.0\Arguments.pdb
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\obj\Debug\net8.0\Arguments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\obj\Debug\net8.0\Arguments.AssemblyInfoInputs.cache
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\obj\Debug\net8.0\Arguments.AssemblyInfo.cs
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\obj\Debug\net8.0\Arguments.csproj.CoreCompileInputs.cache
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\obj\Debug\net8.0\Arguments.sourcelink.json
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\obj\Debug\net8.0\Arguments.dll
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\obj\Debug\net8.0\refint\Arguments.dll
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\obj\Debug\net8.0\Arguments.pdb
+C:\Users\JAM\OneDrive\Документы\GitHub\lab-14\Arguments\obj\Debug\net8.0\ref\Arguments.dll

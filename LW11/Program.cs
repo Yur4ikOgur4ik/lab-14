@@ -52,6 +52,12 @@ namespace LW11
                 Console.WriteLine("3. Compare for and linq + extensions");
                 Console.WriteLine("4. Intersection linq + extension");
                 Console.WriteLine("5. Min");
+                Console.WriteLine("6. Grouping");
+                Console.WriteLine("7. Getting new type");
+                Console.WriteLine("8. Collection where");
+                Console.WriteLine("9. Collection Count");
+                Console.WriteLine("10. Collection Max");
+                Console.WriteLine("11. Collection Group by");
 
 
                 int choice = ValidInput.GetInt();
@@ -72,6 +78,21 @@ namespace LW11
                         break;
                     case 6:
                         Grouping();
+                        break;
+                    case 7:
+                        TopGuitar();
+                        break;
+                    case 8:
+
+                        break;
+                    case 9:
+
+                        break;
+                    case 10:
+
+                        break;
+                    case 11:
+                        DemonstrateGrouping();
                         break;
 
                     default:
@@ -246,5 +267,57 @@ namespace LW11
             var groupedMethod = Methods.GroupInstrumentsByType(participants);
             PrintGroups(groupedMethod);
         }
+        
+        static public void TopGuitar()
+        {
+            Console.WriteLine($"\n=== Top {3} Instruments by String Count (Query Syntax) ===");
+            var result1 = Methods.TopInstrumentsByStringCount(participants);
+            PrintTopGuitars(result1);
+
+            Console.WriteLine($"\n=== Top {3} Instruments by String Count (Method Syntax) ===");
+            var result2 = Methods.TopInstrumentsByStringCountMethod(participants);
+            PrintTopGuitars(result2);
+        }
+        private static void PrintTopGuitars(IEnumerable<object> topGuitars)
+        {
+            if (!topGuitars.Any())
+            {
+                Console.WriteLine("No guitars found.");
+                return;
+            }
+
+            foreach (dynamic item in topGuitars)
+            {
+                Console.WriteLine($"Name: {item.Name}, Strings: {item.StringCount}, Participant: {item.Participant}");
+            }
+        }
+
+        public static void DemonstrateGrouping()
+        {
+            var instruments = new MyCollection<MusicalInstrument>(5);
+
+            // Добавляем несколько инструментов
+            instruments.Add(new Guitar("Stratocaster", 100, 6));
+            instruments.Add(new Piano("Grand", 101, "Octave", 88));
+            instruments.Add(new Guitar("Bass", 102, 4));
+            instruments.Add(new MusicalInstrument("UraNetToi", 103));
+            instruments.Add(new Piano("Digital", 104, "Digital", 76));
+
+            Console.WriteLine("=== Instruments in Collection ===");
+            foreach (var instr in instruments)
+            {
+                Console.WriteLine(instr);
+            }
+
+            Console.WriteLine("\n=== Grouped by Type (Query Syntax) ===");
+            var result1 = instruments.GroupInstrumentsByTypeQuery();
+            PrintGroups(result1);
+
+            Console.WriteLine("\n=== Grouped by Type (Method Syntax) ===");
+            var result2 = instruments.GroupInstrumentsByType();
+            PrintGroups(result2);
+        }
+
+        
     }
 }
