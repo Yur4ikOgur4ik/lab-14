@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\",
+  "WorkspaceRootPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37B40D9D-01F0-4F4B-B2E3-410D6BF5ACD0}|LW11\\LW11.csproj|c:\\users\\jam\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\lab-14\\lw11\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69194AD-7331-4CA2-AA14-98E842A63068}|Tests\\Test\\Test.csproj|c:\\users\\pogu\\source\\repos\\lab-14\\tests\\test\\lab13tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69194AD-7331-4CA2-AA14-98E842A63068}|Tests\\Test\\Test.csproj|solutionrelative:tests\\test\\lab13tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B40D9D-01F0-4F4B-B2E3-410D6BF5ACD0}|LW11\\LW11.csproj|c:\\users\\pogu\\source\\repos\\lab-14\\lw11\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37B40D9D-01F0-4F4B-B2E3-410D6BF5ACD0}|LW11\\LW11.csproj|solutionrelative:lw11\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B40D9D-01F0-4F4B-B2E3-410D6BF5ACD0}|LW11\\LW11.csproj|c:\\users\\jam\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\lab-14\\lw11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37B40D9D-01F0-4F4B-B2E3-410D6BF5ACD0}|LW11\\LW11.csproj|c:\\users\\pogu\\source\\repos\\lab-14\\lw11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37B40D9D-01F0-4F4B-B2E3-410D6BF5ACD0}|LW11\\LW11.csproj|solutionrelative:lw11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69194AD-7331-4CA2-AA14-98E842A63068}|Tests\\Test\\Test.csproj|c:\\users\\jam\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\lab-14\\tests\\test\\linqtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69194AD-7331-4CA2-AA14-98E842A63068}|Tests\\Test\\Test.csproj|c:\\users\\pogu\\source\\repos\\lab-14\\tests\\test\\linqtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69194AD-7331-4CA2-AA14-98E842A63068}|Tests\\Test\\Test.csproj|solutionrelative:tests\\test\\linqtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1308572A-6341-4A76-B1E3-29F97A804FFA}|MusicalInstruments\\MusicalInstruments.csproj|c:\\users\\jam\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\lab-14\\musicalinstruments\\validinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1308572A-6341-4A76-B1E3-29F97A804FFA}|MusicalInstruments\\MusicalInstruments.csproj|c:\\users\\pogu\\source\\repos\\lab-14\\musicalinstruments\\validinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1308572A-6341-4A76-B1E3-29F97A804FFA}|MusicalInstruments\\MusicalInstruments.csproj|solutionrelative:musicalinstruments\\validinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7333A9FF-86AD-419B-A385-1AEFBB2055FA}|Collections\\Collections.csproj|c:\\users\\jam\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\lab-14\\collections\\myopenhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7333A9FF-86AD-419B-A385-1AEFBB2055FA}|Collections\\Collections.csproj|c:\\users\\pogu\\source\\repos\\lab-14\\collections\\myopenhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7333A9FF-86AD-419B-A385-1AEFBB2055FA}|Collections\\Collections.csproj|solutionrelative:collections\\myopenhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7333A9FF-86AD-419B-A385-1AEFBB2055FA}|Collections\\Collections.csproj|c:\\users\\jam\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\lab-14\\collections\\mycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7333A9FF-86AD-419B-A385-1AEFBB2055FA}|Collections\\Collections.csproj|c:\\users\\pogu\\source\\repos\\lab-14\\collections\\mycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7333A9FF-86AD-419B-A385-1AEFBB2055FA}|Collections\\Collections.csproj|solutionrelative:collections\\mycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7333A9FF-86AD-419B-A385-1AEFBB2055FA}|Collections\\Collections.csproj|c:\\users\\jam\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\lab-14\\collections\\hashpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7333A9FF-86AD-419B-A385-1AEFBB2055FA}|Collections\\Collections.csproj|c:\\users\\pogu\\source\\repos\\lab-14\\collections\\hashpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7333A9FF-86AD-419B-A385-1AEFBB2055FA}|Collections\\Collections.csproj|solutionrelative:collections\\hashpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -41,11 +45,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab13Tests.cs",
+              "DocumentMoniker": "C:\\Users\\PogU\\source\\repos\\lab-14\\Tests\\Test\\Lab13Tests.cs",
+              "RelativeDocumentMoniker": "Tests\\Test\\Lab13Tests.cs",
+              "ToolTip": "C:\\Users\\PogU\\source\\repos\\lab-14\\Tests\\Test\\Lab13Tests.cs",
+              "RelativeToolTip": "Tests\\Test\\Lab13Tests.cs",
+              "ViewState": "AgIAAIsBAAAAAAAAAAAAwKMBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:13:42.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -53,15 +66,35 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{778b5376-ad77-4751-acdc-f3d18343f8dd}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LinqTests.cs",
-              "DocumentMoniker": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\Tests\\Test\\LinqTests.cs",
+              "DocumentMoniker": "C:\\Users\\PogU\\source\\repos\\lab-14\\Tests\\Test\\LinqTests.cs",
               "RelativeDocumentMoniker": "Tests\\Test\\LinqTests.cs",
-              "ToolTip": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\Tests\\Test\\LinqTests.cs",
+              "ToolTip": "C:\\Users\\PogU\\source\\repos\\lab-14\\Tests\\Test\\LinqTests.cs",
               "RelativeToolTip": "Tests\\Test\\LinqTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -69,11 +102,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ValidInput.cs",
-              "DocumentMoniker": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\MusicalInstruments\\ValidInput.cs",
+              "DocumentMoniker": "C:\\Users\\PogU\\source\\repos\\lab-14\\MusicalInstruments\\ValidInput.cs",
               "RelativeDocumentMoniker": "MusicalInstruments\\ValidInput.cs",
-              "ToolTip": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\MusicalInstruments\\ValidInput.cs",
+              "ToolTip": "C:\\Users\\PogU\\source\\repos\\lab-14\\MusicalInstruments\\ValidInput.cs",
               "RelativeToolTip": "MusicalInstruments\\ValidInput.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -81,11 +114,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MyOpenHs.cs",
-              "DocumentMoniker": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\Collections\\MyOpenHs.cs",
+              "DocumentMoniker": "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\MyOpenHs.cs",
               "RelativeDocumentMoniker": "Collections\\MyOpenHs.cs",
-              "ToolTip": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\Collections\\MyOpenHs.cs",
+              "ToolTip": "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\MyOpenHs.cs",
               "RelativeToolTip": "Collections\\MyOpenHs.cs",
               "ViewState": "AgIAAK8AAAAAAAAAAAAmwM8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,11 +126,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MyCollection.cs",
-              "DocumentMoniker": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\Collections\\MyCollection.cs",
+              "DocumentMoniker": "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\MyCollection.cs",
               "RelativeDocumentMoniker": "Collections\\MyCollection.cs",
-              "ToolTip": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\Collections\\MyCollection.cs",
+              "ToolTip": "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\MyCollection.cs",
               "RelativeToolTip": "Collections\\MyCollection.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwIAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,37 +138,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Methods.cs",
-              "DocumentMoniker": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\LW11\\Methods.cs",
+              "DocumentMoniker": "C:\\Users\\PogU\\source\\repos\\lab-14\\LW11\\Methods.cs",
               "RelativeDocumentMoniker": "LW11\\Methods.cs",
-              "ToolTip": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\LW11\\Methods.cs",
+              "ToolTip": "C:\\Users\\PogU\\source\\repos\\lab-14\\LW11\\Methods.cs",
               "RelativeToolTip": "LW11\\Methods.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAIwMQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T03:48:29.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\LW11\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PogU\\source\\repos\\lab-14\\LW11\\Program.cs",
               "RelativeDocumentMoniker": "LW11\\Program.cs",
-              "ToolTip": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\LW11\\Program.cs",
+              "ToolTip": "C:\\Users\\PogU\\source\\repos\\lab-14\\LW11\\Program.cs",
               "RelativeToolTip": "LW11\\Program.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAwF4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T17:42:14.088Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "HashPoint.cs",
-              "DocumentMoniker": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\Collections\\HashPoint.cs",
+              "DocumentMoniker": "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\HashPoint.cs",
               "RelativeDocumentMoniker": "Collections\\HashPoint.cs",
-              "ToolTip": "C:\\Users\\JAM\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\lab-14\\Collections\\HashPoint.cs",
+              "ToolTip": "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\HashPoint.cs",
               "RelativeToolTip": "Collections\\HashPoint.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -143,12 +192,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MyObservableCollection.cs",
               "DocumentMoniker": "C:\\Users\\PogU\\source\\repos\\LAbA-13\\Collections\\MyObservableCollection.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\PogU\\source\\repos\\LAbA-13\\Collections\\MyObservableCollection.cs",
+              "RelativeDocumentMoniker": "..\\LAbA-13\\Collections\\MyObservableCollection.cs",
               "ToolTip": "C:\\Users\\PogU\\source\\repos\\LAbA-13\\Collections\\MyObservableCollection.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\PogU\\source\\repos\\LAbA-13\\Collections\\MyObservableCollection.cs",
+              "RelativeToolTip": "..\\LAbA-13\\Collections\\MyObservableCollection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T03:47:56.521Z"

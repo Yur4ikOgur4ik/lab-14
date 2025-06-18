@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\LW11\\LW11.csproj": {}
+    "C:\\Users\\PogU\\source\\repos\\lab-14\\LW11\\LW11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Arguments\\Arguments.csproj": {
+    "C:\\Users\\PogU\\source\\repos\\lab-14\\Arguments\\Arguments.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Arguments\\Arguments.csproj",
+        "projectUniqueName": "C:\\Users\\PogU\\source\\repos\\lab-14\\Arguments\\Arguments.csproj",
         "projectName": "Arguments",
-        "projectPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Arguments\\Arguments.csproj",
-        "packagesPath": "C:\\Users\\JAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Arguments\\obj\\",
+        "projectPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\Arguments\\Arguments.csproj",
+        "packagesPath": "C:\\Users\\PogU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\Arguments\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PogU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,20 +69,20 @@
         }
       }
     },
-    "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Collections\\Collections.csproj": {
+    "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\Collections.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Collections\\Collections.csproj",
+        "projectUniqueName": "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\Collections.csproj",
         "projectName": "Collections",
-        "projectPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Collections\\Collections.csproj",
-        "packagesPath": "C:\\Users\\JAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Collections\\obj\\",
+        "projectPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\Collections.csproj",
+        "packagesPath": "C:\\Users\\PogU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PogU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,11 +97,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Arguments\\Arguments.csproj": {
-                "projectPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Arguments\\Arguments.csproj"
+              "C:\\Users\\PogU\\source\\repos\\lab-14\\Arguments\\Arguments.csproj": {
+                "projectPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\Arguments\\Arguments.csproj"
               },
-              "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj": {
-                "projectPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj"
+              "C:\\Users\\PogU\\source\\repos\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj": {
+                "projectPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj"
               }
             }
           }
@@ -141,20 +141,20 @@
         }
       }
     },
-    "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\LW11\\LW11.csproj": {
+    "C:\\Users\\PogU\\source\\repos\\lab-14\\LW11\\LW11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\LW11\\LW11.csproj",
+        "projectUniqueName": "C:\\Users\\PogU\\source\\repos\\lab-14\\LW11\\LW11.csproj",
         "projectName": "LW11",
-        "projectPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\LW11\\LW11.csproj",
-        "packagesPath": "C:\\Users\\JAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\LW11\\obj\\",
+        "projectPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\LW11\\LW11.csproj",
+        "packagesPath": "C:\\Users\\PogU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\LW11\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PogU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -169,14 +169,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Arguments\\Arguments.csproj": {
-                "projectPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Arguments\\Arguments.csproj"
+              "C:\\Users\\PogU\\source\\repos\\lab-14\\Arguments\\Arguments.csproj": {
+                "projectPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\Arguments\\Arguments.csproj"
               },
-              "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Collections\\Collections.csproj": {
-                "projectPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\Collections\\Collections.csproj"
+              "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\Collections.csproj": {
+                "projectPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\Collections\\Collections.csproj"
               },
-              "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj": {
-                "projectPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj"
+              "C:\\Users\\PogU\\source\\repos\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj": {
+                "projectPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj"
               }
             }
           }
@@ -216,20 +216,20 @@
         }
       }
     },
-    "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj": {
+    "C:\\Users\\PogU\\source\\repos\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj",
+        "projectUniqueName": "C:\\Users\\PogU\\source\\repos\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj",
         "projectName": "MusicalInstruments",
-        "projectPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj",
-        "packagesPath": "C:\\Users\\JAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JAM\\OneDrive\\Документы\\GitHub\\lab-14\\MusicalInstruments\\obj\\",
+        "projectPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\MusicalInstruments\\MusicalInstruments.csproj",
+        "packagesPath": "C:\\Users\\PogU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PogU\\source\\repos\\lab-14\\MusicalInstruments\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PogU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

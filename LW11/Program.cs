@@ -13,7 +13,7 @@ namespace LW11
     public class Program
     {
         public static SortedDictionary<string, List<MusicalInstrument>> participants;
-        public static MyCollection<MusicalInstrument> instrumentCollection;
+        public static MyCollection<MusicalInstrument> instrumentCollection = new MyCollection<MusicalInstrument>(10);
 
         public static void Main()
         {
@@ -34,7 +34,10 @@ namespace LW11
 
                 participants[name] = instruments;
             }
-
+            for (int i = 0; i<10; i++)
+            {
+                instrumentCollection.Add(ValidInput.CreateRandomInstr());
+            }
             
             List<MusicalInstrument> list1 = new List<MusicalInstrument>();
             List<MusicalInstrument> list2 = new List<MusicalInstrument>();
@@ -83,13 +86,13 @@ namespace LW11
                         TopGuitar();
                         break;
                     case 8:
-
+                        DemonstrateGuitarSelection();
                         break;
                     case 9:
-
+                        DemoCount();
                         break;
                     case 10:
-
+                        DemonstrateTotalAndMaxStringCount();
                         break;
                     case 11:
                         DemonstrateGrouping();
@@ -294,30 +297,70 @@ namespace LW11
 
         public static void DemonstrateGrouping()
         {
-            var instruments = new MyCollection<MusicalInstrument>(5);
 
-            // Добавляем несколько инструментов
-            instruments.Add(new Guitar("Stratocaster", 100, 6));
-            instruments.Add(new Piano("Grand", 101, "Octave", 88));
-            instruments.Add(new Guitar("Bass", 102, 4));
-            instruments.Add(new MusicalInstrument("UraNetToi", 103));
-            instruments.Add(new Piano("Digital", 104, "Digital", 76));
 
-            Console.WriteLine("=== Instruments in Collection ===");
-            foreach (var instr in instruments)
-            {
-                Console.WriteLine(instr);
-            }
 
             Console.WriteLine("\n=== Grouped by Type (Query Syntax) ===");
-            var result1 = instruments.GroupInstrumentsByTypeQuery();
+            var result1 = instrumentCollection.GroupInstrumentsByTypeQuery();
             PrintGroups(result1);
 
             Console.WriteLine("\n=== Grouped by Type (Method Syntax) ===");
-            var result2 = instruments.GroupInstrumentsByType();
+            var result2 = instrumentCollection.GroupInstrumentsByType();
             PrintGroups(result2);
         }
 
-        
+        public static void DemoCount()
+        {
+            int totalInstruments = instrumentCollection.GetTotalInstrumentsWithExtension();
+            Console.WriteLine($"Total instruments in collection: {totalInstruments}");
+
+            int totalGuitars = instrumentCollection.GetGuitarCountWithLinq();
+            Console.WriteLine($"Number of guitars (LINQ): {totalGuitars}");
+        }
+
+        public static void DemonstrateGuitarSelection()
+        {
+            Console.WriteLine("\n=== Guitars selected via LINQ Query Syntax ===");
+            var linqResult = instrumentCollection.GetGuitarsWithLinq();
+            if (linqResult.Any())
+            {
+                foreach (var guitar in linqResult)
+                {
+                    Console.WriteLine(guitar);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No guitars found.");
+            }
+
+            Console.WriteLine("\n=== Guitars selected via Extension Methods ===");
+            var extensionResult = instrumentCollection.GetGuitarsWithExtension();
+            if (extensionResult.Any())
+            {
+                foreach (var guitar in extensionResult)
+                {
+                    Console.WriteLine(guitar);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No guitars found.");
+            }
+
+        }
+
+        public static void DemonstrateTotalAndMaxStringCount()
+        {
+
+            // Вызываем методы агрегации
+            Console.WriteLine("\n=== Aggregation Results ===");
+
+            int totalStrings = instrumentCollection.TotalStringsExtension();
+            Console.WriteLine($"Total strings in all guitars: {totalStrings}");
+
+            int maxStringCount = instrumentCollection.MaxStringCountLINQ();
+            Console.WriteLine($"Maximum string count among guitars: {maxStringCount}");
+        }
     }
 }

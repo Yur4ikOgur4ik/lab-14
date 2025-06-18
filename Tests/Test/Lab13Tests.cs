@@ -1,5 +1,6 @@
 ﻿using Arguments;
 using Collections;
+using LW11;
 using MusicalInstruments;
 using System;
 using System.Collections.Generic;
@@ -157,7 +158,7 @@ namespace Test
         }
 
         [TestMethod]
-        [ExpectedException(typeof(InvalidOperationException))]
+        [ExpectedException(typeof(KeyNotFoundException))]
         public void Indexer_Get_WhenContainsTrueButItemNotFound_ThrowsInvalidOperationException()
         {
             // Arrange
@@ -179,5 +180,243 @@ namespace Test
             }
         }
 
+        [TestMethod]
+        public void GetTotalInstrumentsWithExtension_ReturnsCorrectCount()
+        {
+            // Arrange
+            var collection = new MyCollection<MusicalInstrument>(5);
+            collection.Add(new Guitar("Stratocaster", 100, 6));
+            collection.Add(new Piano("Grand", 101, "Octave", 88));
+            collection.Add(new Guitar("Bass", 102, 4));
+
+            // Act
+            int result = collection.GetTotalInstrumentsWithExtension();
+
+            // Assert
+            Assert.AreEqual(8, result);
+        }
+
+        [TestMethod]
+        public void GetGuitarCountWithLinq_ReturnsCorrectGuitarCount()
+        {
+            // Arrange
+            var collection = new MyCollection<MusicalInstrument>(5);
+            collection.Add(new Guitar("Stratocaster", 100, 6));
+            collection.Add(new Piano("Grand", 101, "Octave", 88));
+            collection.Add(new Guitar("Bass", 102, 4));
+
+            // Act
+            int result = collection.GetGuitarCountWithLinq();
+
+            // Assert
+            Assert.AreEqual(2, result);
+        }
+
+        [TestMethod]
+        public void TotalStringsExtension_SumsAllGuitarStrings()
+        {
+            // Arrange
+            var collection = new MyCollection<MusicalInstrument>(5);
+            collection.Add(new Guitar("Stratocaster", 100, 6));
+            collection.Add(new Guitar("Bass", 102, 4));
+            collection.Add(new Piano("Grand", 101, "Octave", 88));
+
+            // Act
+            int totalStrings = collection.TotalStringsExtension();
+
+            // Assert
+            Assert.AreEqual(10, totalStrings); // 6 + 4
+        }
+
+        [TestMethod]
+        public void MaxStringCountLINQ_ReturnsMaxStringCount()
+        {
+            // Arrange
+            var collection = new MyCollection<MusicalInstrument>(5);
+            collection.Add(new Guitar("Stratocaster", 100, 6));
+            collection.Add(new Guitar("Bass", 102, 4));
+            collection.Add(new Guitar("Les Paul", 103, 7));
+
+            // Act
+            int maxStrings = collection.MaxStringCountLINQ();
+
+            // Assert
+            Assert.AreEqual(7, maxStrings);
+        }
+
+        [TestMethod]
+        public void MaxStringCountLINQ_NoGuitars_ReturnsZero()
+        {
+            // Arrange
+            var collection = new MyCollection<MusicalInstrument>(5);
+            collection.Add(new Piano("Piano", 101, "Octave", 88));
+            collection.Add(new MusicalInstrument("UraNetToi", 102));
+
+            // Act
+            int maxStrings = collection.MaxStringCountLINQ();
+
+            // Assert
+            Assert.AreEqual(0, maxStrings);
+        }
+
+        [TestMethod]
+        public void GroupInstrumentsByTypeQuery_GroupsCorrectly()
+        {
+            // Arrange
+            var collection = new MyCollection<MusicalInstrument>(5);
+            collection.Add(new Guitar("Stratocaster", 100, 6));
+            collection.Add(new Piano("Grand", 101, "Octave", 88));
+            collection.Add(new Guitar("Bass", 102, 4));
+            collection.Add(new Piano("Digital", 103, "Digital", 76));
+            collection.Add(new MusicalInstrument("UraNetToi", 104));
+
+            // Act
+            var groups = collection.GroupInstrumentsByTypeQuery().ToList();
+
+            // Assert
+            Assert.IsTrue(groups.Any(g => g.Key == "Guitar"));
+            Assert.IsTrue(groups.Any(g => g.Key == "Piano"));
+            Assert.IsTrue(groups.Any(g => g.Key == "MusicalInstrument"));
+
+            var guitarGroup = groups.First(g => g.Key == "Guitar");
+            Assert.AreEqual(2, guitarGroup.Count());
+
+            var pianoGroup = groups.First(g => g.Key == "Piano");
+            Assert.AreEqual(2, pianoGroup.Count());
+
+            var instrumentGroup = groups.First(g => g.Key == "MusicalInstrument");
+            Assert.AreEqual(6, instrumentGroup.Count());
+        }
+
+        [TestMethod]
+        public void GroupInstrumentsByType_MethodSyntax_GroupsCorrectly()
+        {
+            // Arrange
+            var collection = new MyCollection<MusicalInstrument>(5);
+            collection.Add(new Guitar("Stratocaster", 100, 6));
+            collection.Add(new Piano("Grand", 101, "Octave", 88));
+            collection.Add(new Guitar("Bass", 102, 4));
+            collection.Add(new Piano("Digital", 103, "Digital", 76));
+            collection.Add(new MusicalInstrument("UraNetToi", 104));
+
+            // Act
+            var groups = collection.GroupInstrumentsByType().ToList();
+
+            // Assert
+            Assert.IsTrue(groups.Any(g => g.Key == "Guitar"));
+            Assert.IsTrue(groups.Any(g => g.Key == "Piano"));
+            Assert.IsTrue(groups.Any(g => g.Key == "MusicalInstrument"));
+
+            var guitarGroup = groups.First(g => g.Key == "Guitar");
+            Assert.AreEqual(2, guitarGroup.Count());
+
+            var pianoGroup = groups.First(g => g.Key == "Piano");
+            Assert.AreEqual(2, pianoGroup.Count());
+
+            var instrumentGroup = groups.First(g => g.Key == "MusicalInstrument");
+            Assert.AreEqual(6, instrumentGroup.Count());
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void GetGuitarWithMinStringsViaQuery_NullParticipants_ThrowsArgumentException()
+        {
+            // Arrange
+            SortedDictionary<string, List<MusicalInstrument>> participants = null;
+
+            // Act
+            participants.GetGuitarWithMinStringsViaQuery();
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void GetGuitarWithMinStringsViaQuery_EmptyParticipants_ThrowsArgumentException()
+        {
+            // Arrange
+            var participants = new SortedDictionary<string, List<MusicalInstrument>>();
+
+            // Act
+            participants.GetGuitarWithMinStringsViaQuery();
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void GetGuitarWithMinStringsViaQuery_NoGuitars_ThrowsInvalidOperationException()
+        {
+            // Arrange
+            var participants = new SortedDictionary<string, List<MusicalInstrument>>
+            {
+                ["Jora"] = new List<MusicalInstrument> { new Piano("Grand", 100, "C", 88) },
+                ["Grisha"] = new List<MusicalInstrument> { new MusicalInstrument("UraNetToi", 101) }
+            };
+
+            // Act
+            participants.GetGuitarWithMinStringsViaQuery();
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void GetMinStringCount_NullParticipants_ThrowsArgumentException()
+        {
+            // Arrange
+            SortedDictionary<string, List<MusicalInstrument>> participants = null;
+
+            // Act
+            participants.GetMinStringCount();
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void GetMinStringCount_EmptyParticipants_ThrowsArgumentException()
+        {
+            // Arrange
+            var participants = new SortedDictionary<string, List<MusicalInstrument>>();
+
+            // Act
+            participants.GetMinStringCount();
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void GetMinStringCount_NoGuitars_ThrowsInvalidOperationException()
+        {
+            // Arrange
+            var participants = new SortedDictionary<string, List<MusicalInstrument>>
+            {
+                ["Jora"] = new List<MusicalInstrument> { new Piano("Grand", 100, "Octave", 88) },
+                ["Grisha"] = new List<MusicalInstrument> { new MusicalInstrument("UraNetToi", 101) }
+            };
+
+            // Act
+            participants.GetMinStringCount();
+        }
+
+        [TestMethod]
+        public void GetMinStringCount_HasGuitars_ReturnsCorrectMin()
+        {
+            // Arrange
+            var participants = new SortedDictionary<string, List<MusicalInstrument>>
+            {
+                ["Jora"] = new List<MusicalInstrument>
+        {
+            new Guitar("Stratocaster", 100, 6),
+            new Guitar("Les Paul", 101, 7)
+        },
+                ["Grisha"] = new List<MusicalInstrument>
+        {
+            new Guitar("Bass", 102, 4)
+        },
+                ["Sergey"] = new List<MusicalInstrument>
+        {
+            new Guitar("Classic", 103, 5)
+        }
+            };
+
+            // Act
+            int result = participants.GetMinStringCount();
+
+            // Assert
+            Assert.AreEqual(4, result); // Bass имеет 4 струны
+        }
     }
 }
